@@ -15,4 +15,4 @@ sedutil-cli --setlockingrange 0 lk debug "$DEVICE"
 sedutil-cli --setmbrdone off debug "$DEVICE"
 sedutil-cli --loadpbaimage debug ./UEFI64.img "$DEVICE"
 
-echo "TCG OPAL drive initialized."
+echo "Now power off the drive and it should enter the weird state."
